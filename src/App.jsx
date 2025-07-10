@@ -3,6 +3,7 @@
 import { useState } from "react"
 import ResumeForm from "./components/ResumeForm"
 import ResumePreview from "./components/ResumePreview"
+import Footer from "./components/Footer"
 import "./App.css"
 
 function App() {
@@ -72,6 +73,7 @@ function App() {
           <ResumePreview resumeData={resumeData} />
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
