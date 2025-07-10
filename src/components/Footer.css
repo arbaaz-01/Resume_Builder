@@ -1,0 +1,15 @@
+.app-footer {
+  background: #d6ddfc;
+  color: black;
+  text-align: center;
+  padding: 0.5rem 0;
+  font-size: 0.8rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.app-footer p {
+  margin: 0;
+}
